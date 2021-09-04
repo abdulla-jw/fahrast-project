@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>fahrast</title>
+        <link rel="stylesheet" href="twitter-bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <header class="hide-all">
+            <nav id="header-nav" class="navbar navbar-default">
+                <a href="index.html" class="pull-left">
+                    <h2>فهرست</h2>
+                </a> 
+                <div class="container">  
+                    <div class="navbar-header"> 
+                        <div id="search-div">
+                            <form>
+                                <button type="button" >
+                                    <i class="fa fa-search"></i> 
+                                </button>
+                                <input type="text" placeholder= "        ابحث عن كتاب او مؤلف .." name="search" >
+                            </form>
+                        </div>   
+                    </div>
+                    <div>
+                        <div id="home-nav">
+                            <a style="float: left;" href="index.html">
+                                <i class="fa fa-home"></i>
+                            </a>
+                            <h2>الصفحه الرئسيه</h2>  
+                        </div>     
+                    </div> 
+                </div>
+                <button type="button">
+                    المساعده
+                </button>  
+                <button type="button">
+                    <i class="fa fa-bars" style="font-size:30px ;color: rgba(245, 245, 245, 1);"></i>
+                </button> 
+            </nav>
+            <nav id="path-bar">
+                <a href="index.html">
+                    <h6>
+                        الرئسيه
+                    </h6>
+                </a>
+                <i class="fa fa-chevron-left"></i>
+                <a href="index.html">
+                    <h6 id="path-h">
+                        الحساب
+                    </h6>
+                </a>
+                <i class="fa fa-chevron-left"></i>
+            </nav>
+        </header>
+        <!--phone-nav-bar..............................................................................................................-->
+        <header class="hide-phone">
+            <nav id="phone-navbar-upper" class="navbar navbar-default">
+                <button type="button" >
+                    <i class="fa fa-search"></i>
+                </button>
+                <div class="container">
+                    <a style="padding-left: 36%;" href="index.html">
+                        <h2>فهرست</h2>
+                    </a> 
+                </div>
+                <button type="button">
+                    <i class="fa fa-bars" style="font-size:20px ;color: rgba(51, 51, 51, 1);"></i>
+                </button> 
+            </nav>
+            <nav id="phone-navbar-under" class="navbar navbar-default">
+                <button type="button">
+                    <i class="fa fa-user" aria-hidden="true" ></i>
+                </button>
+                <button type="button">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </button>
+                <div class="container">
+                    <!--this div for seperate icons-->
+                </div>
+                <button type="button">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </button>
+            </nav>
+        </header>
+        <!--Side-menu..................................................................................................................-->
+            <div id="Side-menu" class="hide-all">
+                <a href="index.html">
+                    <h4>
+                        اعدادات المتجر
+                    </h4> 
+                </a>
+                <hr>
+                <h5 style="padding-left: 70px;">
+                    مكتبه بابيلون
+                </h5>
+                <hr>
+                <a href="indext.html">
+                    <i class="material-icons">store</i>
+                    <h6>
+                        عرض معلومات الحساب
+                    </h6>  
+                </a>
+                <hr id="hr-02">
+                <a href="index.html">
+                    <i class="material-icons">add_circle</i>
+                    <p>
+                        اضافه عنصر
+                    </p>  
+                </a>
+                <a href="indext.html">
+                    <i class="material-icons">work</i>
+                    <p>
+                        الطلبات
+                    </p>  
+                </a>
+                <a href="index.html">
+
+                    <i id="side-user-icon" class="fa fa-book" aria-hidden="true" style="width: 24px; height: 24px"></i>
+                    <p>
+                        مكتبتي
+                    </p> 
+                </a>
+                <a href="index.html">
+                    <i style="width: 24px; height: 24px" class="material-icons">check_circle</i>
+                    <p>
+                        منجز
+                    </p> 
+                </a>
+                <hr id="hr-02" >
+                <a href="index.html">
+                    <h5 id="extra-info">
+                        ابلاغ عن مشكله
+                    </h5> 
+                </a>
+                <a href="index.html">
+                    <h5 id="extra-info">
+                        اللغة
+                    </h5> 
+                </a>
+            </div>
+            <!--info-box...........................................................................................................-->
+            <div id="info-box" class="info-box-size">
+                <div id="title-bar" class="col-lg-12 col-md-12 col-sm-12 reduce-distance-between-path-and-info-box" > 
+                    <h6>
+                        اضافه عنصر
+                    </h6>
+                </div>
+                <div id="add-div" class=" col-lg-12 col-md-12 col-sm-12">
+                    <h5>
+                        اضافه صوره
+                    </h5>
+                    <button>
+                        <i class="material-icons">add_circle</i>
+                    </button>
+                    <h6>
+                        الاسم
+                    </h6>
+                    <form>
+                        <input type="text" placeholder= "ادخل اسم ... ">
+                    </form>
+                    <h6>
+                        الكاتب
+                    </h6>
+                    <form>
+                        <input type="text" placeholder= "ادخل اسم كاتب ... ">
+                    </form>
+                    <h6>
+                        دار النشر
+                    </h6>
+                    <form>
+                        <input type="text" placeholder= "دار النشر ...">
+                    </form>
+                    <h6>
+                        النوع
+                    </h6>
+                    <form>
+                        <input type="text" placeholder= "ادخل النوع ... ">
+                    </form>
+                    
+                    <h6>
+                        عدد الصفحات
+                    </h6>
+                    <form>
+                        <input class="small-input" style="width: 25%" type="text" placeholder= "ادخل العدد ... ">
+                    </form>
+                    <h6>
+                        السعر
+                    </h6>
+                    <form>
+                        <input class="small-input" style="width: 25%" type="text" placeholder= "ادخل السعر ...">
+                    </form>
+                    <h6>
+                        السعر الجديد
+                    </h6>
+                    <form>
+                        <input class="small-input" style="width: 25%" type="text" placeholder= "ادخل السعر الجديد ...">
+                    </form>
+                    <h6>
+                        تكاليف التوصيل
+                    </h6>
+                    <form>
+                        <input class="small-input" style="width: 25%" type="text" placeholder= "ادخل الاسم ... ">
+                    </form>
+                    <h6>
+                        وصف
+                    </h6>
+                    <form>
+                        <input style="width: 80% !important; padding-bottom: 80px;"  type="text" placeholder= "ادخل الوصف ... ">
+                    </form>
+                    <hr>
+                    <div>
+                        <button  type="button">
+                            <p style="margin-bottom: 0px; color: white;">
+                                حفظ
+                            </p>
+                        </button>
+                    </div>
+                </div>   
+            </div>  
+            <footer>
+                <div id="footer-div">
+
+                </div>
+            </footer>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
